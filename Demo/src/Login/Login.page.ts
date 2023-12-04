@@ -4,10 +4,10 @@ import {Page, PageContext} from "@testing/wdio-page-objects";
 const select = {
     username :`#js-login-email`,
     bntContinue:`#js-login-continue`,
-    bntUserAndPass:`li[id='js-loginEmailPass'] div[class='login-options__option--description']`,
+    bntUserAndPass:`#js-loginEmailPass`,
     password :`#j_password`,
     bntLogin :`button[class='button-primary js-login-email-password']`,
-    bntSignin:`(//a)[12]`,
+    bntSignin:`#js-myaccount-header`,
 }
 
 @PageContext({
